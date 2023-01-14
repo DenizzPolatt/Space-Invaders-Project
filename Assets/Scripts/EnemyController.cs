@@ -5,12 +5,13 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     [SerializeField] private GameObject enemyShotPrefab;
-
-    private float timer = 3;
+    private float timer;
+    private float timer2;
+    private float gameBegun;
     // Start is called before the first frame update
     void Start()
     {
-        
+        timer += Random.Range(3, 40);
     }
 
     // Update is called once per frame
@@ -22,8 +23,7 @@ public class EnemyController : MonoBehaviour
 
     private void ShootPlayer()
     {
-        float randomTime = Random.Range(1, 5);
-
+        float randomTime = Random.Range(5, 30);
         if (timer < 0)
         {
             timer += randomTime;
@@ -31,4 +31,5 @@ public class EnemyController : MonoBehaviour
         }
 
     }
+    
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4028574328586362645}
   - component: {fileID: 998127274698570921}
   - component: {fileID: -7478980648083903800}
+  - component: {fileID: 3463437340511415759}
   m_Layer: 0
   m_Name: EnemyShot
   m_TagString: Untagged
@@ -110,3 +111,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9917b24f38ec4a4a86e654a8f5c329d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3463437340511415759
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8865499626449006227}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 118
+  m_CollisionDetection: 0
